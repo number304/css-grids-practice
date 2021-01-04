@@ -7,6 +7,7 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            background: palegreen;
         }
 
         .container {
@@ -18,8 +19,7 @@
         }
 
         .content {
-            background: palegreen;
-            border: 1px solid red;
+            border: 2px solid royalblue;
             padding: 10px;
         }
 
@@ -27,16 +27,25 @@
             grid-column: span 3;
             text-align: center;
         }
+        .button {
+            color: royalblue;
+            text-decoration: none;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="content">Elige qué proyecto deseas ver</div>
         <div class="content">
-            <a href="instagram.html" class="button">Instagram</a>
+            <a href="instagram.html" class="button" target="_blank">Instagram</a>
         </div>
-        <div class="content">contenido #3</div>
-        <div class="content">contenido #4</div>
+        <div class="content">
+            <a href="pinterest.html" class="button" target="_blank">Pinterest</a>
+        </div>
+        <div class="content">
+            <a href="platzi.html" class="button" target="_blank">Platzi</a>
+        </div>
     </div>
 </body>
 </html>
